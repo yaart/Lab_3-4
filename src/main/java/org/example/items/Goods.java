@@ -3,7 +3,7 @@ package org.example.items;
 
 public class Goods extends Item {
 
-    protected int cost;
+    private int cost;
 
     public Goods(String name, int maxCount, int damage, int cost) {
         super(name, maxCount, damage);
@@ -27,7 +27,7 @@ public class Goods extends Item {
 
     @Override
     public String toString() {
-        return super.toString() + "Cost: " + this.getCost();
+        return super.toString() + "Cost: " + cost;
     }
 
     @Override

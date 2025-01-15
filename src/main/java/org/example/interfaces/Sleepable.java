@@ -1,5 +1,5 @@
 package org.example.interfaces;
 
-public interface Sleep {
+public interface Sleepable {
     void sleep();
 }

@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Random;
 
 
-public class Yakov extends Character implements InventoryYakov, Arguable, InteractWithCharacter, Eat, Sleep {
+public class Yakov extends Character implements InventoryYakov, Arguable, InteractWithCharacter, Eatable, Sleepable {
 
     private final List<Goods> inventory;
     private boolean isOffend;

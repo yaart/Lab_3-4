@@ -2,6 +2,8 @@ package org.example.persons;
 
 import org.example.world.*;
 
+import java.util.Objects;
+
 public abstract class Character {
 
     private final int MAXHP = 100;
@@ -65,19 +67,31 @@ public abstract class Character {
 
     @Override
     public String toString() {
-        return "Name: " + name + ", Age: " + age + ", Emotion: " + emotion;
+        return "Name: " + name + ", Age: " + age + ", Emotion: " + emotion + ", Location: " + location;
     }
-
     @Override
-    public boolean equals(Object obj) {
-        if (obj instanceof Character h) {
-            return h.getName().equals(this.getName()) && h.getAge() == this.getAge();
+    public boolean equals(Object o) {
+        if(this == o)
+            return true;
+
+        if(o == null)
+            return false;
+
+        if (o instanceof Character other) {
+            return this.name.equals(other.name) &&
+                    this.age == other.age &&
+                    this.emotion == other.emotion &&
+                    this.location == other.location;
+
         }
+
         return false;
     }
+
+
     @Override
     public int hashCode() {
-        return name.hashCode() + age + emotion.hashCode();
+        return Objects.hash(name, age, emotion, location);
     }
-
 }
+

@@ -1,5 +1,5 @@
 package org.example.interfaces;
 
-public interface Repair {
+public interface Repairable {
     void repair();
 }

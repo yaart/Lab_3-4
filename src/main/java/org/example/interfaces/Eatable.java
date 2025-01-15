@@ -1,5 +1,5 @@
 package org.example.interfaces;
 
-public interface Eat {
+public interface Eatable {
     void eat();
 }

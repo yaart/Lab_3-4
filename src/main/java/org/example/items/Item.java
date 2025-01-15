@@ -1,5 +1,7 @@
 package org.example.items;
 
+import java.util.Objects;
+
 public abstract class Item {
     private final int maxCount;
     private String name;
@@ -62,7 +64,7 @@ public abstract class Item {
 
     @Override
     public String toString() {
-        return String.format("Name: %s, Count: %d Damage: %d ", name, count, damage);
+        return "Name: " + name + ", Count: " + count + ", MaxCount: " + maxCount + ", Damage: " + damage;
     }
 
     @Override
@@ -88,7 +90,6 @@ public abstract class Item {
 
     @Override
     public int hashCode() {
-        String stringToHash = String.format("%s %d %d %d", this.name, this.count, this.maxCount, this.damage);
-        return stringToHash.hashCode();
+        return Objects.hash(name, count, maxCount, damage);
     }
 }
