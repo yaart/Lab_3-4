@@ -38,10 +38,11 @@ public class Goods extends Item {
         if (obj == null)
             return false;
 
-        if (obj instanceof Goods good)
-            return this.getName().equals(good.getName()) &&
-                    this.getMaxCount() == good.getMaxCount() &&
-                    this.getCost() == good.getCost();
+        if (obj instanceof Goods other)
+            return this.getName().equals(other.getName()) &&
+                    this.getMaxCount() == other.getMaxCount() &&
+                    this.getDamage() == other.getDamage() &&
+                    this.cost == other.cost;
 
         return false;
     }
