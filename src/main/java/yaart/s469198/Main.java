@@ -1,9 +1,11 @@
-package org.example;
+package yaart.s469198;
 
-import org.example.exceptions.*;
-import org.example.persons.*;
-import org.example.world.*;
-import org.example.items.*;
+
+import yaart.s469198.exceptions.*;
+import yaart.s469198.items.Goods;
+import yaart.s469198.persons.*;
+import yaart.s469198.world.*;
+
 import java.util.Random;
 import java.util.Scanner;
 

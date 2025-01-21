@@ -1,4 +1,4 @@
-package org.example.exceptions;
+package yaart.s469198.exceptions;
 
 public class InvalidArgumentException extends Exception {
     @Override

@@ -1,6 +1,6 @@
-package org.example.persons;
+package yaart.s469198.persons;
 
-import org.example.world.*;
+import yaart.s469198.world.*;
 
 import java.util.Objects;
 

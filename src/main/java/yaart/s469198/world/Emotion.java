@@ -1,4 +1,4 @@
-package org.example.world;
+package yaart.s469198.world;
 
 public enum Emotion {
     NEUTRAL("нейтральное"),

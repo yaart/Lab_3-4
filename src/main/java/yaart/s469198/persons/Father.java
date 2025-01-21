@@ -1,9 +1,8 @@
-package org.example.persons;
+package yaart.s469198.persons;
 
 
-import org.example.interfaces.Repairable;
-import org.example.world.Emotion;
-import org.example.world.Location;
+import yaart.s469198.interfaces.Repairable;
+import yaart.s469198.world.*;
 
 public record Father(String name, int age, Emotion emotion, Location location) implements Repairable {
 

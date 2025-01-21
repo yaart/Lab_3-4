@@ -1,7 +1,7 @@
-package org.example.persons;
+package yaart.s469198.persons;
 
-import org.example.interfaces.InteractWithCharacter;
-import org.example.world.*;
+import yaart.s469198.interfaces.InteractWithCharacter;
+import yaart.s469198.world.*;
 
 public class Mother extends Character implements InteractWithCharacter {
 

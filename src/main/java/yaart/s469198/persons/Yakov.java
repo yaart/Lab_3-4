@@ -1,8 +1,8 @@
-package org.example.persons;
+package yaart.s469198.persons;
 
-import org.example.interfaces.*;
-import org.example.items.Goods;
-import org.example.world.*;
+import yaart.s469198.interfaces.*;
+import yaart.s469198.items.Goods;
+import yaart.s469198.world.*;
 
 import java.util.ArrayList;
 import java.util.List;

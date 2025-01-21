@@ -1,4 +1,4 @@
-package org.example.items;
+package yaart.s469198.items;
 
 
 public class Goods extends Item {

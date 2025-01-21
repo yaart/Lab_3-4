@@ -1,6 +1,6 @@
-package org.example.interfaces;
+package yaart.s469198.interfaces;
 
-import org.example.persons.Character;
+import yaart.s469198.persons.Character;
 
 public interface InteractWithCharacter {
 

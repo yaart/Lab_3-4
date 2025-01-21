@@ -1,6 +1,6 @@
-package org.example.interfaces;
+package yaart.s469198.interfaces;
 
-import org.example.items.Goods;
+import yaart.s469198.items.Goods;
 
 public interface InventoryYakov {
 
